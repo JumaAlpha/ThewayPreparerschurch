@@ -1,0 +1,21 @@
+/* ArticleCard.css */
+
+/* Modal title color */
+.modal-title-custom {
+    color: #007bff; /* You can change this to any color you prefer */
+}
+
+/* Modal content color */
+.modal-body-custom {
+    color: #f5e2e2; /* Darker grey text for content */
+}
+
+/* Card title color */
+.card-title-custom {
+    color: #0069d9; /* Custom color for card title */
+}
+
+/* Card content color */
+.card-text-custom {
+    color: #212529; /* Slightly darker text for content */
+}

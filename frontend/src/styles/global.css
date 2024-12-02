@@ -1,0 +1,80 @@
+/* // global.css  */
+#root{
+    width: 100vw;
+    height: 100vh;
+}
+
+#section-one{
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.left-panel{
+    width: 30%;
+    padding: 20px;
+    /* margin: 30%; */
+}
+
+#typing-text{
+    font-size: 62px;
+}
+
+.left-panel {
+    flex: 0 0 30%;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-panel {
+    flex: 0 0 70%; 
+    position: relative;
+}
+
+.carousel-inner {
+    height: 100%; 
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%; 
+    object-fit: cover; 
+}
+
+.icon-wrapper {
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping of child elements */
+    justify-content: center; /* Center elements in the parent container */
+    gap: 20px; /* Add spacing between wrapped items */
+}
+
+.icon-container {
+    width: 100px;
+    height: 100px;
+    background-color: #f8f9fa; /* Light grey background */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    margin-bottom: 10px;
+}
+
+.icon-container i {
+    font-size: 2rem; /* Adjust icon size */
+    color: #007bff; /* Icon color */
+}
+
+.icon-text {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+    text-align: center; /* Ensure the text is centered below the icon */
+}
+
+
+@media screen and (min-width: 480px) {
+}
